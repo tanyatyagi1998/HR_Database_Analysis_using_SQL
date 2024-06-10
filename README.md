@@ -7,15 +7,15 @@ In this project, I have utilized SQL to clean and analyze a human resource datas
 # Data Cleaning with SQL
 In the data cleaning phase, I have performed several SQL queries to clean and preprocess the dataset. The following tasks were completed:
 
-Changed the first column name to "emp_id".
-Explored and cleaned the "birthdate" column, ensuring consistent date formats.
-Changed the data type of the "birthdate" column from text/string to the date data type.
-Explored and cleaned the "hire_date" column, ensuring consistent date formats.
-Changed the data type of the "hire_date" column from text/string to the date data type.
-Explored and cleaned the "termdate" column, filling missing values and changing the date format.
-Changed the data type of the "termdate" column from text/string to the date data type.
-Added a new column, "age", to calculate the age of employees based on their birthdate.
-Checked for incorrect age values, ensuring all ages are greater than or equal to zero.
+-Changed the first column name to "emp_id".
+-Explored and cleaned the "birthdate" column, ensuring consistent date formats.
+-Changed the data type of the "birthdate" column from text/string to the date data type.
+-Explored and cleaned the "hire_date" column, ensuring consistent date formats.
+-Changed the data type of the "hire_date" column from text/string to the date data type.
+-Explored and cleaned the "termdate" column, filling missing values and changing the date format.
+-Changed the data type of the "termdate" column from text/string to the date data type.
+-Added a new column, "age", to calculate the age of employees based on their birthdate.
+-Checked for incorrect age values, ensuring all ages are greater than or equal to zero.
 
 # Exploratory Data Analysis with SQL
 In the exploratory data analysis phase, I have used SQL queries to answer various questions and gain insights into the dataset. The following questions have been addressed:
