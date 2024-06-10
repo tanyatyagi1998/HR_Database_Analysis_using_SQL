@@ -9,43 +9,43 @@ In the data cleaning phase, I have performed several SQL queries to clean and pr
 
 - Changed the first column name to "emp_id".
 - Explored and cleaned the "birthdate" column, ensuring consistent date formats.
--Changed the data type of the "birthdate" column from text/string to the date data type.
--Explored and cleaned the "hire_date" column, ensuring consistent date formats.
--Changed the data type of the "hire_date" column from text/string to the date data type.
--Explored and cleaned the "termdate" column, filling missing values and changing the date format.
--Changed the data type of the "termdate" column from text/string to the date data type.
--Added a new column, "age", to calculate the age of employees based on their birthdate.
--Checked for incorrect age values, ensuring all ages are greater than or equal to zero.
+- Changed the data type of the "birthdate" column from text/string to the date data type.
+- Explored and cleaned the "hire_date" column, ensuring consistent date formats.
+- Changed the data type of the "hire_date" column from text/string to the date data type.
+- Explored and cleaned the "termdate" column, filling missing values and changing the date format.
+- Changed the data type of the "termdate" column from text/string to the date data type.
+- Added a new column, "age", to calculate the age of employees based on their birthdate.
+- Checked for incorrect age values, ensuring all ages are greater than or equal to zero.
 
 # Exploratory Data Analysis with SQL
 In the exploratory data analysis phase, I have used SQL queries to answer various questions and gain insights into the dataset. The following questions have been addressed:
 
-Gender Breakdown: Analyzed the gender distribution of employees in the company.
-Race/Ethnicity Breakdown: Examined the race/ethnicity breakdown of employees in the company.
-Age Distribution: Explored the age distribution of employees in the company.
-Headquarters vs. Remote Locations: Determined the number of employees working at headquarters versus remote locations.
-Average Length of Employment: Calculated the average length of employment for terminated employees.
-Gender Distribution by Departments and Job Titles: Analyzed the gender distribution/count across departments and job titles.
-Job Title Distribution: Examined the distribution/count of job titles across the company.
-Department with the Highest Turnover Rate: Identified the department with the highest turnover rate.
-Employee Distribution by Locations: Explored the distribution/count of employees across locations by city and state.
-Employee Count Changes Over Time: Analyzed how the company's employee count has changed over time based on hire and termination dates.
-Feel free to explore the SQL queries provided to gain a deeper understanding of the dataset and the insights obtained through data analysis.
+- Gender Breakdown: Analyzed the gender distribution of employees in the company.
+- Race/Ethnicity Breakdown: Examined the race/ethnicity breakdown of employees in the company.
+- Age Distribution: Explored the age distribution of employees in the company.
+- Headquarters vs. Remote Locations: Determined the number of employees working at headquarters versus remote locations.
+- Average Length of Employment: Calculated the average length of employment for terminated employees.
+- Gender Distribution by Departments and Job Titles: Analyzed the gender distribution/count across departments and job titles.
+- Job Title Distribution: Examined the distribution/count of job titles across the company.
+- Department with the Highest Turnover Rate: Identified the department with the highest turnover rate.
+- Employee Distribution by Locations: Explored the distribution/count of employees across locations by city and state.
+- Employee Count Changes Over Time: Analyzed how the company's employee count has changed over time based on hire and termination dates.
+- Feel free to explore the SQL queries provided to gain a deeper understanding of the dataset and the insights obtained through data analysis.
 
 # Technologies Used
 The project was implemented using the following technologies:
 
-SQL: Utilized for data cleaning and exploratory data analysis tasks.
-Database Management System: Used to create the "human_resource" database and execute SQL queries.
-PowerBI : Used to Analyze and Visualize Analysis results.
+- SQL: Utilized for data cleaning and exploratory data analysis tasks.
+- Database Management System: Used to create the "human_resource" database and execute SQL queries.
+- PowerBI : Used to Analyze and Visualize Analysis results.
 # Project Files
 The following files are included in this repository:
 
-hr_data_cleaning.sql: SQL script for data cleaning tasks.
-hr_analysis.sql: SQL script for exploratory data analysis queries.
-hr_analytics.pbix: PowerBI file for Visulisation of Reports.
-HumanResource.csv: PDF report generated from PowerBI
-README.md: This readme file providing an overview of the project and its contents.
+- hr_data_cleaning.sql: SQL script for data cleaning tasks.
+- hr_analysis.sql: SQL script for exploratory data analysis queries.
+- hr_analytics.pbix: PowerBI file for Visulisation of Reports.
+- HumanResource.csv: PDF report generated from PowerBI
+- README.md: This readme file providing an overview of the project and its contents.
 Please note that the SQL scripts assume the existence of a "human_resource" database. Make sure to set up the database before executing the queries.
 
 # Results
