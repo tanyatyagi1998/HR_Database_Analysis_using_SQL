@@ -7,8 +7,8 @@ In this project, I have utilized SQL to clean and analyze a human resource datas
 # Data Cleaning with SQL
 In the data cleaning phase, I have performed several SQL queries to clean and preprocess the dataset. The following tasks were completed:
 
--Changed the first column name to "emp_id".
--Explored and cleaned the "birthdate" column, ensuring consistent date formats.
+- Changed the first column name to "emp_id".
+- Explored and cleaned the "birthdate" column, ensuring consistent date formats.
 -Changed the data type of the "birthdate" column from text/string to the date data type.
 -Explored and cleaned the "hire_date" column, ensuring consistent date formats.
 -Changed the data type of the "hire_date" column from text/string to the date data type.
